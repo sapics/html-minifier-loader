@@ -1,0 +1,28 @@
+{
+  "name": "html-minifier-loader",
+  "version": "1.0.5",
+  "keywords": ["html-minifier", "webpack", "loader"],
+  "description": "Webpack loader that minifies HTML by [html-minifier](https://github.com/kangax/html-minifier)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sapics/html-minifier-loader"
+  },
+  "author": "sapics",
+  "_npmUser": {
+    "name": "sapics"
+  },
+  "maintainers": [
+    {
+      "name": "sapics"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sapics/html-minifier-loader/issues"
+  },
+  "homepage": "https://github.com/sapics/html-minifier-loader",
+  "dependencies": {
+    "html-minifier": "^0.7.2"
+  }
+}
