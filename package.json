@@ -1,6 +1,6 @@
 {
   "name": "html-minifier-loader",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "keywords": ["html-minifier", "webpack", "loader"],
   "description": "Webpack loader that minifies HTML by [html-minifier](https://github.com/kangax/html-minifier)",
   "main": "index.js",
@@ -15,6 +15,6 @@
   },
   "homepage": "https://github.com/sapics/html-minifier-loader",
   "dependencies": {
-    "html-minifier": "^1.0.0"
+    "html-minifier": "^1.0.1"
   }
 }
