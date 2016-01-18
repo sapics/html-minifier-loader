@@ -1,9 +1,10 @@
 var minify = require('html-minifier').minify;
+var loaderUtils = require('loader-utils');
 
 module.exports = function(source) {
   this.cacheable && this.cacheable();
   var callback = this.async(),
-      options = this.options['html-minifier-loader'],
+      options = loaderUtils.parseQuery(this.query),
       defaultOptions = {
         removeComments: true,
         collapseWhitespace: true
