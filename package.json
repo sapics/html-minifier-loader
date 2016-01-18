@@ -1,6 +1,6 @@
 {
   "name": "html-minifier-loader",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "keywords": [
     "html-minifier",
     "webpack",
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/sapics/html-minifier-loader",
   "dependencies": {
-    "html-minifier": "^1.0.1",
+    "html-minifier": "^1.1.1",
     "loader-utils": "^0.2.12"
   }
 }
