@@ -28,16 +28,3 @@ module: {
     preserveLineBreaks: true
 }
 ```
-
-With [vue-loader](https://github.com/vuejs/vue-loader)
-```
-module: {
-    loaders: [
-        {    test: /\.vue$/,
-             loader: vue.withLoaders({
-                 html: 'html!html-minifier'
-             })
-        }
-    ]
-}
-```
