@@ -3,20 +3,11 @@ var loaderUtils = require('loader-utils')
 
 module.exports = function(source) {
   this.cacheable && this.cacheable()
-  var callback = this.async(),
-      options = this.options['html-minifier-loader'] || loaderUtils.parseQuery(this.query),
-      defaultOptions = {
-        removeComments: true,
-        collapseWhitespace: true
-      }
-
-  if(options){
-    for (var k in defaultOptions) {
-      if (options[k] == null) {
-        options[k] = defaultOptions[k]
-      }
-    }
+  var options = this.options['html-minifier-loader'] || loaderUtils.parseQuery(this.query)
+  var defaultOptions = {
+    removeComments: true,
+    collapseWhitespace: true
   }
 
-  callback(null, minify(source, options || defaultOptions))
+  return minify(source, Object.assign({}, defaultOptions, options))
 }
