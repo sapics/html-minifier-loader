@@ -6,7 +6,7 @@ If you wish to use [minimize](https://github.com/Moveo/minimize), please use [ht
 Installation
 ---
 ```console
-npm install html-minifier-loader
+npm install html-minifier-loader html-minifier
 ```
 
 Example of webpack.config.js
@@ -17,7 +17,7 @@ The default is `{removeComments: true, collapseWhitespace: true}`.
 module: {
     loaders: [
         {    test: /\.html$/,
-             loader: 'raw!html-minifier'
+             loader: 'raw-loader!html-minifier-loader'
         }
     ]
 },

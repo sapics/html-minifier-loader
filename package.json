@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/sapics/html-minifier-loader",
   "dependencies": {
-    "html-minifier": "^1.1.1",
     "loader-utils": "^0.2.12"
+  },
+  "peerDependencies": {
+    "html-minifier": "*"
   }
 }
