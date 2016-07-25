@@ -1,4 +1,4 @@
-# html-minifier-loader
+# html-minifier-loader   [![NPM version](https://badge.fury.io/js/html-minifier-loader.svg)](https://badge.fury.io/js/html-minifier-loader)
 
 Webpack loader that minifies HTML by [html-minifier](https://github.com/kangax/html-minifier).
 If you wish to use [minimize](https://github.com/Moveo/minimize), please use [html-minify-loader](https://github.com/bestander/html-minify-loader).
