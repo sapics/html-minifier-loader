@@ -6,7 +6,7 @@ If you wish to use [minimize](https://github.com/Moveo/minimize), please use [ht
 Installation
 ---
 ```console
-npm install html-minifier-loader html-minifier
+npm install html-minifier-loader
 ```
 
 Example of webpack.config.js
