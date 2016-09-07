@@ -5,7 +5,7 @@ Webpack loader that minifies HTML by [html-minifier](https://github.com/kangax/h
 Installation
 ---
 ```console
-npm install html-minifier-loader
+npm install html-minifier html-minifier-loader --save
 ```
 
 Example of webpack.config.js
