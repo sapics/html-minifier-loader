@@ -1,6 +1,6 @@
 {
   "name": "html-minifier-loader",
-  "version": "1.3.0",
+  "version": "1.3.3",
   "keywords": [
     "html-minifier",
     "webpack",
