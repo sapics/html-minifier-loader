@@ -12,7 +12,7 @@ Example of webpack.config.js
 ---
 You can pass [html-minifier](https://github.com/kangax/html-minifier) parameters by 'html-minifier-loader' property.
 The default is `{removeComments: true, collapseWhitespace: true}`.
-```
+```js
 module: {
     loaders: [
         {    test: /\.html$/,
