@@ -21,6 +21,9 @@
   "dependencies": {
     "loader-utils": "^0.2.12"
   },
+  "files": [
+    "index.js"
+  ],
   "peerDependencies": {
     "html-minifier": "*"
   }
