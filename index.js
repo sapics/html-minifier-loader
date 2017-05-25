@@ -10,7 +10,7 @@ module.exports = function(source) {
     , options = this.options['html-minifier-loader'] || {}
     , options2
   try {
-    options2 = loaderUtils.parseQuery(this.query)
+    options2 = loaderUtils.getOptions(this)
   } catch(e) {
     options2 = {}
   }
