@@ -7,7 +7,7 @@ module.exports = function(source) {
         removeComments: true,
         collapseWhitespace: true
       }
-    , options = this.options['html-minifier-loader'] || {}
+    , options = this.options && this.options['html-minifier-loader'] || {}
     , options2
   try {
     options2 = loaderUtils.getOptions(this)
